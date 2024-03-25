@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZAU_SDRP</OBJCT>
+    <FIEL1>VKORG</FIEL1>
+    <FIEL2>AUART</FIEL2>
+    <FIEL3>ACTVT</FIEL3>
+    <OCLSS>ZHBM</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZAU_SDRP</OBJECT>
+    <TTEXT>Authorization for Repair Order</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZAU_SDRP</OBJCT>
+    <FLAG2>N</FLAG2>
+   </TOBJVORFLG>
+   <TACTZ>
+    <TACTZ>
+     <BROBJ>ZAU_SDRP</BROBJ>
+     <ACTVT>01</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZAU_SDRP</BROBJ>
+     <ACTVT>02</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZAU_SDRP</BROBJ>
+     <ACTVT>03</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZAU_SDRP</BROBJ>
+     <ACTVT>95</ACTVT>
+    </TACTZ>
+   </TACTZ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TOBJ" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <OBJH>
+    <OBJECTNAME>ZVI_BM_SDPR_H</OBJECTNAME>
+    <OBJECTTYPE>V</OBJECTTYPE>
+    <CLIDEP>X</CLIDEP>
+    <OBJCATEG>APPL</OBJCATEG>
+    <OBJTRANSP>2</OBJTRANSP>
+    <IMPORTABLE>3</IMPORTABLE>
+   </OBJH>
+   <OBJT>
+    <LANGUAGE>E</LANGUAGE>
+    <OBJECTNAME>ZVI_BM_SDPR_H</OBJECTNAME>
+    <OBJECTTYPE>V</OBJECTTYPE>
+    <DDTEXT>Sale Promotion: Header</DDTEXT>
+   </OBJT>
+   <OBJS>
+    <OBJS>
+     <OBJECTNAME>ZVI_BM_SDPR_H</OBJECTNAME>
+     <OBJECTTYPE>V</OBJECTTYPE>
+     <TABNAME>ZTB_BM_SDPR_H</TABNAME>
+     <DDIC>X</DDIC>
+     <PRIM_TABLE>X</PRIM_TABLE>
+    </OBJS>
+   </OBJS>
+   <TOBJ>
+    <TDDAT>
+     <TABNAME>ZVI_BM_SDPR_H</TABNAME>
+     <CCLASS>&amp;NC&amp;</CCLASS>
+    </TDDAT>
+    <TVDIR>
+     <TABNAME>ZVI_BM_SDPR_H</TABNAME>
+     <AREA>ZFG_BM_SDPR_MAIN</AREA>
+     <TYPE>2</TYPE>
+     <LISTE>0100</LISTE>
+     <DETAIL>0101</DETAIL>
+    </TVDIR>
+    <TVIMF>
+     <TVIMF>
+      <TABNAME>ZVI_BM_SDPR_H</TABNAME>
+      <EVENT>01</EVENT>
+      <FORMNAME>SAVE_LOG</FORMNAME>
+     </TVIMF>
+     <TVIMF>
+      <TABNAME>ZVI_BM_SDPR_H</TABNAME>
+      <EVENT>05</EVENT>
+      <FORMNAME>GENERATE_PROMONUMBER</FORMNAME>
+     </TVIMF>
+    </TVIMF>
+   </TOBJ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

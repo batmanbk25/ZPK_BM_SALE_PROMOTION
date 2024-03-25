@@ -1,0 +1,15 @@
+"Name: \PR:SAPMV45A\FO:USEREXIT_MOVE_FIELD_TO_VBAK\SE:END\EI
+ENHANCEMENT 0 ZEI_SALE_PROMOTION.
+*
+  IF T180-AKTYP = 'H' OR T180-AKTYP = 'V'.
+*    CALL FUNCTION 'ZFM_SALE_PROMOTION_CHECK'
+*      EXPORTING
+*        IS_TVAK       = TVAK
+*        IS_VBAK       = VBAK
+*        IS_VBKD       = VBKD
+*      CHANGING
+*        CT_VBAP       = XVBAP[]
+*        CT_KOMV       = XKOMV[].
+  ENDIF.
+*  ivbap = VBAP.
+ENDENHANCEMENT.
